@@ -6,8 +6,8 @@ class Config(object):
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "6957865617:AAErJV_3eAe6mQVFU8g1kvDRwUm66i3vVkE")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "latest_tv_show_File_store_bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002117171789"))
-  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "inshorturl.com")
-  SHORTLINK_API = os.environ.get('SHORTLINK_API', "eb64df5c541a506f19e1a87e61c664d78038e3af")
+  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "modijiurl.com")
+  SHORTLINK_API = os.environ.get('SHORTLINK_API', "fe930e58ec20ee01ad182f2f4320ff9149c44dc3")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "1562792211"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Cluster0:Cluster0@cluster0.kailvlv.mongodb.net/?retryWrites=true&w=majority")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001970358116")
@@ -23,16 +23,16 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 
 ╭────[ 🔅FɪʟᴇSᴛᴏʀᴇBᴏᴛ🔅]────⍟
 │
-├🔸 My Name: [FileStore Bot](https://t.me/{BOT_USERNAME})
+├🤖 My Name: [FileStore Bot](https://t.me/{BOT_USERNAME})
 │
-├🔸 Language: [Python 3](https://www.python.org)
+├📝 Language: [Python 3](https://www.python.org)
 │
-├🔹 Library: [Pyrogram](https://docs.pyrogram.org)
+├📖 Library: [Pyrogram](https://docs.pyrogram.org)
 │
 ╰──────[ 😎 ]───────────⍟
 """
   ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [TANMAY](https://t.me/Latestshowtv)
+👨‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [TANMAY](https://t.me/Latestshowtv)
  
  I am Super noob Please Support My Hard Work.
 
