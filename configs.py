@@ -3,7 +3,7 @@ import os
 class Config(object):
   API_ID = int(os.environ.get("API_ID", "22787559"))
   API_HASH = os.environ.get("API_HASH", "e771139d8f3d4ae57f663ad049bbb710")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6957865617:AAErJV_3eAe6mQVFU8g1kvDRwUm66i3vVkE")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6957865617:AAH7CMn9O2aGyNXM19E5XOLtfkTGKANYy90")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "latest_tv_show_File_store_bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002117171789"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "modijiurl.com")
