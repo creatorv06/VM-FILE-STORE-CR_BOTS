@@ -43,7 +43,7 @@ Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
 
 👨‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:- @Developerltr_bot
 
-How to Use Bot & it's Benefits??
+ℹ️ How to Use Bot & it's Benefits??
 
 📢 Send me any File & It will be uploaded in My Database & You will Get the File Link.
 
