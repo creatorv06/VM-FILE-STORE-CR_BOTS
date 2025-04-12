@@ -82,8 +82,8 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/Latestshowtv"),
-                        InlineKeyboardButton("YouTube Page", url="https://youtube.com/@videocreator2107?si=JsDT4YDKhp8I9Lfr")
+                        InlineKeyboardButton("🌐 Support Group", url="https://t.me/Latestshowtv"),
+                        InlineKeyboardButton("▶️ YouTube Page", url="https://youtube.com/@videocreator2107?si=JsDT4YDKhp8I9Lfr")
                     ]
                 ]
             )
