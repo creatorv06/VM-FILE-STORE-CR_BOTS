@@ -152,7 +152,7 @@ async def main(bot: Client, message: Message):
         try:
             forwarded_msg = await message.forward(Config.DB_CHANNEL)
             file_er_id = str(forwarded_msg.id)
-            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=TanmayBotz_{str_to_b64(file_er_id)}"
+            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=LTSBotz_{str_to_b64(file_er_id)}"
             CH_edit = await bot.edit_message_reply_markup(message.chat.id, message.id,
                                                           reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(
                                                               "Get Sharable Link", url=share_link)]]))
@@ -362,8 +362,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/Developerltr_bot"),
-                        InlineKeyboardButton("YouTube Page", url="https://youtube.com/@videocreator2107?si=JsDT4YDKhp8I9Lfr")
+                        InlineKeyboardButton("🌐 Support Group", url="https://t.me/Developerltr_bot"),
+                        InlineKeyboardButton("▶️ YouTube Page", url="https://youtube.com/@videocreator2107?si=JsDT4YDKhp8I9Lfr")
                     ]
                 ]
             )
@@ -401,7 +401,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/Developerltr_bot).",
+                    text="Something went Wrong. Contact my [🌐 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/Developerltr_bot).",
                     disable_web_page_preview=True
                 )
                 return
