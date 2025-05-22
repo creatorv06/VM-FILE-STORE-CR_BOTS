@@ -77,8 +77,8 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("Updates Channel", url="https://t.me/latest_tv_Show")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
+                        InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("About Dev 👨‍💻", callback_data="aboutdevs"),
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
@@ -318,12 +318,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
+                        InlineKeyboardButton("Source Codes of Bot 🤖",
                                              url="https://t.me/Latestshowtv")
                     ],
                     [
-                        InlineKeyboardButton("Go Home", callback_data="gotohome"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("Go Home 🏠", callback_data="gotohome"),
+                        InlineKeyboardButton("About Dev 👨‍💻", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -336,12 +336,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
+                        InlineKeyboardButton("Source Codes of Bot 🤖",
                                              url="https://t.me/Latestshowtv")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("Go Home", callback_data="gotohome")
+                        InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("Go Home 🏠", callback_data="gotohome")
                     ]
                 ]
             )
@@ -357,8 +357,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("Updates Channel", url="https://t.me/latest_tv_Show")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
+                        InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("About Dev 👨‍💻", callback_data="aboutdevs"),
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
@@ -411,12 +411,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/latest_tv_Show"),
-                        InlineKeyboardButton("Support Group", url="https://t.me/Developerltr_bot")
+                        InlineKeyboardButton("Updates Channel 📣", url="https://t.me/latest_tv_Show"),
+                        InlineKeyboardButton("Support Group 🌐", url="https://t.me/Developerltr_bot")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("About Dev 👨‍💻", callback_data="aboutdevs")
                     ]
                 ]
             )
