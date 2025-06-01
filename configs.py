@@ -3,8 +3,8 @@ import os
 class Config(object):
   API_ID = int(os.environ.get("API_ID", "22787559"))
   API_HASH = os.environ.get("API_HASH", "e771139d8f3d4ae57f663ad049bbb710")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6957865617:AAFPLqiv4GHikYLO1u3gHaAB5LrI6B5_3Yg")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "latest_tv_show_File_store_bot")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "7731772319:AAGkJtJRerAiuwpBagjBq3RX-Lpetbe5nn4")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "latesttvshow_File_store_bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002117171789"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "shortxlinks.com")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "4e38e716da4afdfe114367ab6f1728419e521296")
